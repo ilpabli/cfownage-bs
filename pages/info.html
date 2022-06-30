@@ -5,58 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Total Ownage - Crossfit</title>
-    <link rel="shortcut icon" href="./images/favicon.png"/>
+    <link rel="shortcut icon" href="../images/favicon.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
-        <!-- Comienzo de la cabecera del sitio -->    
-    <header class="header">
-        <div class= "header__content"> 
-            <a href="../index.html"> <img src="../images/crossfit.png" alt="logo" width="300" height="78"></a>
-            <nav>
-                <ul class="content__nav">
-                    <li><a href="./info.html" class="nav__enlace">Qué es Crossfit?</a></li>
-                    <li><a href="./sumate.html" class="nav__enlace">Sumate</a></li>
-                    <li><a href="./wod.html" class="nav__enlace">Work of day</a></li>
-                    <li><a href="./nutricion.html" class="nav__enlace">Nutricion</a></li>
-                    <li><a href="./contacto.html" class="nav__enlace">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
+    <!-- Comienzo de la cabecera del sitio -->    
+    <header>
+        <nav class="navbar sticky-top navbar-expand-lg purple">
+            <div class="container-fluid mx-4 my-2 gap-5">
+              <a class="navbar-brand" href="../index.html"><img src="../images/crossfit.png" width="300" height="78" alt="logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav fw-bold">
+                  <a class="nav-link" href="./info.html">Qué es Crossfit?</a>
+                  <a class="nav-link" href="./sumate.html">Sumate</a>
+                  <a class="nav-link" href="./wod.html">Work of day</a>
+                  <a class="nav-link" href="./nutricion.html">Nutricion</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- Comienzo del cuerpo del sitio -->     
-    <main class="main">
-        <section class="info__content">
-            <article class="info__content--text">
-                <h1>Qué es crossfit?</h1>
-                <p>Probablemente has oído hablar de crossfit y te has preguntado qué es y cómo puedes empezar a hacer entrenamientos sencillos. 
-                Crossfit es un programa de ejercicios intenso y de entrenamiento cruzado que combina diferentes tipos de ejercicios, en rutinas de acondicionamiento físico variadas denominadas Workouts of the Day (WOD). 
-                Los atletas de crossfit rara vez hacen las mismas rutinas en la misma semana. 
-                Por ejemplo, en el WOD del lunes, podrías hacer 10 dominadas, 20 sentadillas y correr 400 metros, completando tantas repeticiones como sea posible
-                (AMRAP, del inglés As Many Repetitions As Posible) en una cierta cantidad de tiempo. En el WOD del martes, podrías hacer 15 flexiones, 15 saltos al cajón y 5 fondos en anillas en cada minuto ( EMOM, Each Minute On the Minute ). 
-                Los WOD suelen ser de entre 5 y 20 minutos dependiendo de la intensidad y lo que se busque trabajar.</p>
-            </article>
-            <div>
+    <main>
+        <section class="row container-fluid p-3">
+            <div class="col card text-center m-2">    
+                <div class="card-body">
+                    <h2 class="card-title">Qué es crossfit?</h2>
+                    <p class="card-text">Probablemente has oído hablar de crossfit y te has preguntado qué es y cómo puedes empezar a hacer entrenamientos sencillos. 
+                    Crossfit es un programa de ejercicios intenso y de entrenamiento cruzado que combina diferentes tipos de ejercicios, en rutinas de acondicionamiento físico variadas denominadas Workouts of the Day (WOD). 
+                    Los atletas de crossfit rara vez hacen las mismas rutinas en la misma semana. 
+                    Por ejemplo, en el WOD del lunes, podrías hacer 10 dominadas, 20 sentadillas y correr 400 metros, completando tantas repeticiones como sea posible
+                    (AMRAP, del inglés As Many Repetitions As Posible) en una cierta cantidad de tiempo. En el WOD del martes, podrías hacer 15 flexiones, 15 saltos al cajón y 5 fondos en anillas en cada minuto ( EMOM, Each Minute On the Minute ). 
+                    Los WOD suelen ser de entre 5 y 20 minutos dependiendo de la intensidad y lo que se busque trabajar.</p>    
+                </div>
+            </div>
+            <div class="col ratio ratio-16x9">
                 <iframe width="640" height="480" src="https://www.youtube.com/embed/mklNYx-a6zs?start=17" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </section>
     </main>
     <!-- Comienzo del pie de sitio -->    
-    <footer class="footer">
-        <section class="footer__redes"> 
-            <h5>© 2022 Total Ownage CrossFit.</h5>
-            <div>
-                <a href="https://www.facebook.com/crossfit">
-                <i class="fa fa-facebook fa-1x redes__icons"></i></a>
-                <a href="https://twitter.com/CrossFit">
-                <i class="fa fa-twitter fa-1x redes__icons"></i></a>
-                <a href="https://www.instagram.com/crossfit/">
-                <i class="fa fa-instagram fa-1x redes__icons"></i></a>
-                <a href="https://www.youtube.com/channel/UCtcQ6TPwXAYgZ1Mcl3M1vng">
-                <i class="fa fa-youtube fa-1x redes__icons"></i></a>
-            </div>
+    <footer class="bg-dark text-white container-fluid">
+        <section class="row">
+          <div class="col">
+            <h6 class="m-3">© 2022 Total Ownage CrossFit.</h5>
+          </div>
+          <div class="col text-end">
+              <a href="https://www.facebook.com/crossfit">
+              <i class="fa fa-facebook fa-1x redes__icons"></i></a>
+              <a href="https://twitter.com/CrossFit">
+              <i class="fa fa-twitter fa-1x redes__icons"></i></a>
+              <a href="https://www.instagram.com/crossfit/">
+              <i class="fa fa-instagram fa-1x redes__icons"></i></a>
+              <a href="https://www.youtube.com/channel/UCtcQ6TPwXAYgZ1Mcl3M1vng">
+              <i class="fa fa-youtube fa-1x redes__icons"></i></a>
+          </div>
         </section>
     </footer>
 </body>
