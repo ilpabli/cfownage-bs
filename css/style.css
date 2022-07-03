@@ -57,6 +57,7 @@ body {
   background-image: url('../images/mybox.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  height: 100vh;
 }
 
 .wod__box {
