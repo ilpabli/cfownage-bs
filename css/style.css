@@ -2,13 +2,13 @@
     background-color: #9600ff; 
 }
 
-.redes__icons {
+.footer__icons{
     padding: 20px;
     animation: icon3d 200ms 10;
     color: #fff;
 }
 
-.redes__icons:hover {
+.footer__icons:hover {
     animation: icon3d 200ms infinite;
 }
 
@@ -28,4 +28,16 @@
     100% {
       text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
     }
+}
+
+.background__sumate {
+  background-image: url('../images/snatch.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.background__contacto {
+  background-image: url('../images/mybox.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
