@@ -51,7 +51,7 @@ body {
   background-image: url('../images/snatch.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: auto;
 }
 
 .background__contacto {
