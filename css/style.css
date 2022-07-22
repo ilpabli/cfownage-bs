@@ -23,7 +23,7 @@ body {
   background-image: url(../images/mybox.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh; }
+  height: auto; }
 
 .wod__box {
   transition: box-shadow 0.3s ease; }

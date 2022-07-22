@@ -23,7 +23,7 @@ body {
   }
   
   .background__contacto {
-    @include bgimage(url(../images/mybox.jpg), 100vh)
+    @include bgimage(url(../images/mybox.jpg))
   }
 
 .wod__box {
