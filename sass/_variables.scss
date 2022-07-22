@@ -1,0 +1,27 @@
+//Color
+$bgcolor: #cfcfcf;
+$ftcolor: #1a1a1a;
+$boxcolor: #afafaf;
+$purple: #9600ff;
+$green: #00ff00;
+$white: #fff;
+$black: #000;
+
+
+// Mixin
+
+@mixin bgimage ($imageloc, $height:auto) {
+    background-image: $imageloc;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: $height;
+}
+
+// Mapa footer
+
+$redes: (
+    facebook: $white,
+    twitter: $green,
+    instagram: $green,
+    youtube: $white,
+);

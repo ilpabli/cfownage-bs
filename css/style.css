@@ -1,70 +1,74 @@
 body {
-  background-color: #cfcfcf;
-}
+  background-color: #cfcfcf; }
 
 .purple {
-  background-color: #9600ff; 
-}
+  background-color: #9600ff; }
 
-.grey{
-  background-color: #afafaf;
-}
+.grey {
+  background-color: #afafaf; }
 
 .nav__style {
   color: #000;
-  transition: color 0.6s ease;
-}
+  transition: color 0.6s ease; }
+  .nav__style:hover {
+    color: #fff; }
 
-.nav__style:hover {
-  color: #fff;
-}
+.background__sumate {
+  background-image: url(../images/snatch.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto; }
 
-.footer__icons{
+.background__contacto {
+  background-image: url(../images/mybox.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; }
+
+.wod__box {
+  transition: box-shadow 0.3s ease; }
+  .wod__box:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4); }
+
+.ftcolor {
+  background-color: #1a1a1a; }
+
+.footer__icons--facebook {
   padding: 20px;
   animation: icon3d 200ms 10;
-  color: #fff;
-}
+  color: #fff; }
+  .footer__icons--facebook:hover {
+    animation: icon3d 200ms infinite; }
 
-.footer__icons:hover {
-  animation: icon3d 200ms infinite;
-}
+.footer__icons--twitter {
+  padding: 20px;
+  animation: icon3d 200ms 10;
+  color: #00ff00; }
+  .footer__icons--twitter:hover {
+    animation: icon3d 200ms infinite; }
+
+.footer__icons--instagram {
+  padding: 20px;
+  animation: icon3d 200ms 10;
+  color: #00ff00; }
+  .footer__icons--instagram:hover {
+    animation: icon3d 200ms infinite; }
+
+.footer__icons--youtube {
+  padding: 20px;
+  animation: icon3d 200ms 10;
+  color: #fff; }
+  .footer__icons--youtube:hover {
+    animation: icon3d 200ms infinite; }
 
 @keyframes icon3d {
   0% {
-    text-shadow: 5px 4px rgba(244,67,54,1), -5px -6px rgba(33,150,243,1);
-  }
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3; }
   25% {
-    text-shadow: -5px -6px rgba(244,67,54,1), 5px 4px rgba(33,150,243,1);
-  }
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3; }
   50% {
-    text-shadow: 5px -4px rgba(244,67,54,1), -8px 4px rgba(33,150,243,1);
-  }
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3; }
   75% {
-    text-shadow: -8px -4px rgba(244,67,54,1), -5px -4px rgba(33,150,243,1);
-  }
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3; }
   100% {
-    text-shadow: -5px 0 rgba(244,67,54,1), 5px -4px rgba(33,150,243,1);
-  }
-}
-
-.background__sumate {
-  background-image: url('../images/snatch.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: auto;
-}
-
-.background__contacto {
-  background-image: url('../images/mybox.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-.wod__box {
-  transition: box-shadow 0.3s ease;
-}
-
-.wod__box:hover {
-  box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.4);
-}
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3; } }
